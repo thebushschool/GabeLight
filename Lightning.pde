@@ -2,9 +2,9 @@ float x, y, r = 180, g = 180, b = 0, a = 255; // variables for start position of
 float inc = 1; // 'resolution' of lightning
 float prevX, prevY; // initializing
 double rNum, rNum2;
+PImage img;
 
 void setup() {
-  PImage img;
   img = loadImage("skyline3.jpg");
   size(1200, 500);
   frameRate(5); // boring setup stuffs
