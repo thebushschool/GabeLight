@@ -5,7 +5,7 @@ double rNum, rNum2;
 
 void setup() {
   PImage img;
-  img = loadImage("skyline3.png");
+  img = loadImage("skyline3.jpg");
   background(img);
   size(1200, 500);
   frameRate(5); // boring setup stuffs
