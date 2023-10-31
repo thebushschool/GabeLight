@@ -6,12 +6,12 @@ double rNum, rNum2;
 void setup() {
   PImage img;
   img = loadImage("skyline3.jpg");
-  background(img);
   size(1200, 500);
   frameRate(5); // boring setup stuffs
 }
 
 void draw() {
+  background(img);
   if (r >= 180 && g >= 180) {
     r += 5*((float)Math.random()-0.5);
     g += 5*((float)Math.random()-0.5);
