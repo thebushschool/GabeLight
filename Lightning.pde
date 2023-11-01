@@ -23,6 +23,7 @@ void draw() {
 }
 
 void mousePressed() {
+  background(img);
   bolt(-1);
 }
 
